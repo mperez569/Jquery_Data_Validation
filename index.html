@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>JQUERY VALIDATION</title>
+        <link rel = "stylesheet" href =  "style.css">
+    </head>
+    
+    <body>
+        <h1>AWS REGISTRATION FORM</h1>
+        <form action = "registration.html" method = "get" name = "Member_form" id = "member_form">
+        <fieldset>
+            <legend>Registration Information</legend>
+            <div>
+                <label for = "email">Email Address: </label>
+                <input type = "text" id = "email" name = "email">
+                <span>*</span>
+            </div>
+            <div>
+                <label for = "password">Password: </label>
+                <input type = "password" id = "password" name = "password">
+                <span>*</span>
+            </div>
+            <div>
+                <label for = "verify">Re-enter Password: </label>
+                <input type = "password" id = "verify" name = "verify">
+                <span>*</span>
+            </div>
+
+        </fieldset>
+        <!--<fieldset>
+            
+        </fieldset>-->
+        <fieldset>
+            <legend>Submit your Form</legend>
+            <input type = "submit" id = "submit" value = "SUBMIT">
+            <input type = "reset" id = "reset" value = "RESET">
+        </fieldset>
+        <script src = "https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script src = "script.js"></script>
+        </form>
+    </body>
+</html>
