@@ -9,7 +9,7 @@ $(document).ready(() => {
         if(email==""){
             $("#email").next().text("This Field is required!");
             isValid = false;
-        }else if(email != emailPattern){
+        }else if(!emailPattern.test(email){
             $("#email").next().text("Must be a valid email");
             isValid = false;
         }else{
