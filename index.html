@@ -2,7 +2,7 @@
 <html>
     <head>
         <title>JQUERY VALIDATION</title>
-        <link rel = "stylesheet" href =  "style.css">
+        <link rel = "stylesheet" href = "style.css">
     </head>
     
     <body>
@@ -27,9 +27,38 @@
             </div>
 
         </fieldset>
-        <!--<fieldset>
-            
-        </fieldset>-->
+        <fieldset>
+            <legend>Membership Information</legend>
+            <div>
+                <label>Membership Type: </label>
+                <input type = "radio" name = "type" id = "individual" checked> Individual
+                <input type = "radio" name = "type" id = "corporate"> Corporate
+            </div>
+
+            <div>
+                <label for = "company_name">Company Name: </label>
+                <input type = "text" id = "company_name" name = "company_name" disabled>
+                <span></span>
+            </div>
+
+            <div>
+                <label for = "first_name"> First Name: </label>
+                <input type = "text" id = "first_name" name = "first_name">
+                <span></span>
+            </div>
+
+            <div>
+                <label for = "last_name"> Last Name: </label>
+                <input type = "text" id = "last_name" name = "last_name">
+                <span></span>
+            </div>
+
+            <div>
+                <label for = "phone"> Phone Number: </label>
+                <input type = "text" id = "phone" name = "phone">
+                <span></span>
+            </div>
+        </fieldset>
         <fieldset>
             <legend>Submit your Form</legend>
             <input type = "submit" id = "submit" value = "SUBMIT">
